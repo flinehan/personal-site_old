@@ -1,0 +1,85 @@
+$darkPrimaryColor: #32425c;
+$primaryColor: #607d8b;
+$lightPrimaryColor: #607189;
+$text: #FFFFFF;
+$accentColor: #FF9800;
+$primaryText: #6c6c6c;
+$secondaryText: #727272;
+$divider: #B6B6B6;
+
+
+body {
+  color: $primaryText;
+}
+
+
+nav.top-nav.fc-top-nav{
+  background-color: $darkPrimaryColor;
+}
+
+
+.call-out{
+  background-color: $darkPrimaryColor;
+}
+
+.call-out h4{
+  font-size: 1.2em;
+}
+
+
+a.btn-floating.btn-large.waves-effect.waves-light.red {
+  position: relative;
+  top: -25px;
+}
+
+footer.site-footer{
+  padding: 3% 20%;
+  background: $darkPrimaryColor;
+  color: #fff;
+}
+
+.fr-header-btn {
+  right: 5%;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+}
+
+.fc-header-txt{
+  color:$lightPrimaryColor;
+}
+
+li.logo.nav-logo:hover {
+  background: none;
+}
+
+.logo.nav-logo {
+  padding: 20px 15px;
+}
+
+.logo-icon {
+  height: 50px;
+  border-radius: 10px;
+}
+
+.fc-action{
+  background-color:#ce616e !important;
+}
+
+.stand-out {
+  color: #ce616e;
+  font-weight: bold;
+}
+
+ul.side-nav.fixed {
+  left: -240px;
+}
+
+ul.side-nav li {
+  float: none;
+  padding: 5px 15px;
+}
+
+.pull-right{
+  float: right !important;
+}

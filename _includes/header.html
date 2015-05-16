@@ -1,0 +1,58 @@
+<header>
+  <nav class="top-nav fc-top-nav">
+    <div class="container">
+      <a id="logo-container" href="/" >
+        <img class="logo-icon" src="/img/logo.png" style="margin-top: 0.1em;">
+      </a>
+
+    	<a href="#" data-activates="nav-mobile" class="button-collapse top-nav full pull-right" style="display:block">
+  			<i class="mdi-navigation-menu"></i>
+  		</a>
+
+    </div>
+  </nav>
+{% assign current = page.url | downcase | split: '/' %}
+  <ul id="nav-mobile" class="side-nav fixed">
+  	<li class="logo nav-logo">
+  		<a id="logo-container" href="/" class="brand-logo">
+        <img class="logo-icon" src="{{ "/img/logo.png" | prepend: site.baseurl }}">
+      </a>
+    </li>
+
+    {% if page.url == '/index.html' %}
+        <li class="active">
+          <a class="page-link active" href="/">
+            Home
+          </a>
+        </li>
+      {% else %}
+        <li >
+          <a class="page-link" href="/">
+            Home
+          </a>
+        </li>
+      {% endif %}
+
+
+
+
+    {% for node in site.pages %}
+
+
+			{% if node.title and node.hide != true %}
+
+
+      {% if page.url == node.url %}
+        <li class="active"><a href="{{node.url}}" class="active">{{node.title}}</a></li>
+      {% else %}
+        <li><a class="page-link" href="{{ node.url | prepend: site.baseurl }}">{{node.title}}</a></li>
+      {% endif %}
+
+
+			{% endif %}
+		{% endfor %}
+		<!-- Social icons from Font Awesome, if enabled -->
+	{% include icons.html %}
+  </ul>
+</header>
+
