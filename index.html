@@ -2,10 +2,16 @@
 layout: default
 ---
 
-<div class="home">
-
   {% if site.theme.header_text %}
-  <div class="call-out">{{ site.theme.header_text }}</div>
+
+
+  <div class="fr-background">
+    <div class="call-out">
+      {{ site.theme.header_text }}
+    </div>
+  </div>
+
+
   <div class="fr-header-btn">
       <a href="#posts" class="btn-floating btn-large waves-effect waves-light red" >
         <i class="mdi-hardware-keyboard-arrow-down"></i>
@@ -14,11 +20,15 @@ layout: default
 
   {% endif %}
 
-  <div class="posts container" id="posts">
+<div class="fr-home">
+
+
+
+  <div class="posts container mt" id="posts">
 
 
     {% for post in paginator.posts %}
-    <div class="post-teaser">
+    <div class="fr-card">
 
       <header>
         <h1>
