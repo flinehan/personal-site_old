@@ -30,16 +30,16 @@ $( document ).ready(function() {
       parallax();
     });
 
-    if(!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-        //super sub optimal to sniff at the agent like this... ~frank
-        $.firefly({
-            color: '#fff',
-            minPixel: 1,
-            maxPixel: 2,
-            total : 40,
-            on: '.fr-background'
-        });
-    }
+    // if(!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    //     //super sub optimal to sniff at the agent like this... ~frank
+    //     $.firefly({
+    //         color: '#fff',
+    //         minPixel: 1,
+    //         maxPixel: 2,
+    //         total : 40,
+    //         on: '.fr-background'
+    //     });
+    // }
 
 
 });
