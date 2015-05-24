@@ -24,6 +24,7 @@ nav.top-nav.fc-top-nav{
 
 .call-out{
   background-color: $darkPrimaryColor;
+  box-shadow: 0px 0px 7px 0px #777;
 }
 
 .call-out h4{
@@ -97,7 +98,7 @@ ul.side-nav li {
   padding: 25px;
   padding-left: 30px;
   background: #fff;
-  box-shadow: 0 3px 3px 1px rgba(0, 0, 0, .15);
+  box-shadow: 0px 2px 1px rgba(0,0,0,0.1);
 }
 
 .fr-home{
