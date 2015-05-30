@@ -1,9 +1,9 @@
 ---
 layout: default
 ---
-<article {% if page.feature-img %}class="feature-image"{% endif %}>
+<div class="mt" {% if page.feature-img %}class="feature-image"{% endif %}>
 
-  <header style="background-image: url('{{ site.baseurl }}/{{ page.feature-img }}')">
+  <header style="margin-bottom: 70px; background-image: url('{{ site.baseurl }}/{{ page.feature-img }}')">
     <h1 class="title">{{ page.title }}</h1>
 
     <p class="meta">
@@ -12,11 +12,11 @@ layout: default
     </p>
   </header>
 
-  <section class="post-content container">
+  <section class="post-content">
     {{ content }}
   </section>
 
-</article>
+</div>
 
 <!-- Disqus -->
 {% if site.theme.disqus_shortname %}

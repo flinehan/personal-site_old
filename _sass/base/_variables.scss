@@ -1,3 +1,13 @@
+$darkPrimaryColor: #32425c;
+$primaryColor: #607d8b;
+$lightPrimaryColor: #607189;
+$text: #FFFFFF;
+$accentColor: #FF9800;
+$primaryText: #555;
+$secondaryText: #727272;
+$divider: #B6B6B6;
+
+
 // typography
 $font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
 $font-size: 1.25em;
@@ -9,12 +19,12 @@ $padding-x-small: 3%;
 
 // brand colors
 $brand-color: #fff;
-$background-color: #fff;
+$background-color: #fafafa;
 $border-color: rgba(0, 0, 0, 0.1); // rgba recommended if using feature images
 
 // typography colors
 $text-color: #383838;
-$link-color: #1ABC9C;
+$link-color: $primaryColor;
 $selection-color: #D4D4D4; // visible when highlighting text
 
 // header colors
@@ -27,3 +37,5 @@ $feature-image-size: cover; // options include "cover", "contain", "auto"
 // header description box
 $header-desc-background-color: #F98752;
 $header-desc-text-color: #FFF;
+
+

@@ -1,21 +1,18 @@
 ---
 layout: page
-title: About
+title: About Me
 permalink: /about/
 ---
 
-#### Who am i?
+![Frank Linehan](/img/frank-linehan.jpg)
 
+<small>Me on Payette Lake, photo by the talented <a href="http://kylecoster.com/">Kyle Coster</a></small>
 
 My name is Frank Linehan, and I'm a web developer. I have a passion for the web and enjoy working with the various web based technologies and languages.
 
 I am currently working for [LiveRez](http://www.liverez.com/) as a Front End Engineer. From September 2013, I have worked in the partner facing development team. We drive and improve the way property managers use software.
 
 I live in Boise, Idaho, and enjoy climbing, travel, and of couse web development. I like using new technology and patterns.
-
-![Frank Linehan](/img/frank-linehan.jpg)
-
-<small>Me on Payette Lake, photo by the talented <a href="http://kylecoster.com/">Kyle Coster</a></small>
 
 In late 2012 I worked at [Netmark](http://www.netmark.com) primarily as a web developer and for a time as a project manager. I implemented SCRUM with experience on the SCRUM planning cycle, from release pre-planning through sprint and capacity planning.
 

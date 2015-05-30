@@ -5,38 +5,38 @@ layout: default
   {% if site.theme.header_text %}
 
 
-  <div class="fr-background">
+  <div class="fc-background">
     <div class="call-out">
       {{ site.theme.header_text }}
 
     </div>
   </div>
 
-<div class="fr-header-btn">
-          <a href="#posts" class="btn-floating btn-large waves-effect waves-light red" >
-            <i class="mdi-hardware-keyboard-arrow-down"></i>
-          </a>
-      </div>
+  <div class="fc-header-btn">
+      <a href="#posts" class="btn-floating btn-large waves-effect waves-light fc-jump-action" >
+        <i class="mdi-hardware-keyboard-arrow-down"></i>
+      </a>
+  </div>
 
 
   {% endif %}
 
 
 
-<div class="fr-home">
+<div class="fc-home">
 
 
 
-  <div class="posts container mt" id="posts">
+  <div class="posts mt" id="posts">
 
 
     {% for post in paginator.posts %}
-    <div class="fr-card">
+    <div class="fc-card">
 
       <header>
-        <h1>
+        <div class="fc-card-title">
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h1>
+        </div>
 
         <p class="meta">{{ post.date | date: "%B %-d, %Y" }}</p>
       </header>

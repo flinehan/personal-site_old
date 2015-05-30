@@ -17,7 +17,7 @@
 $( document ).ready(function() {
     $(".button-collapse").sideNav();
 
-    var background = $('.fr-background');
+    var background = $('.fc-background');
 
     var parallax = function() {
       var scrolled = $(window).scrollTop();
