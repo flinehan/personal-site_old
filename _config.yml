@@ -1,12 +1,12 @@
 # SITE CONFIGURATION
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://example.com" # the base hostname & protocol for your site
+url: "http://www.frankcode.com" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
 theme:
   # Meta
-  title: Frank Code
-  description: "A website with blog posts and pages" # used by search engines
+  title:  Frank Linehan Web Developer | FrankCode
+  description: "Frank Linehan is a web developer, specializing in front end development and JavaScript" # used by search engines
 
   # Header and footer text
   header_text: >

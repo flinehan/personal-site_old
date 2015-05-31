@@ -53,3 +53,7 @@ Now take the ideas that you have generated and create a drawing of an actual UI 
 
 ##Critiques? Super Vote?
 No critiques today, since I am running this solo. I will mention in a team setting this would be one of the most important steps
+
+## Thoughts
+
+This day was very high levle, which is good. It helped to take part of the problem and then focus it down with the sketches and storyboards. This day transalted really well to a solo project, but I am sure that having a team would definitly improve the value this day provides.

@@ -26,4 +26,5 @@ Assumptions aren't worth a whole lot with out a test plan. To test these I will 
 
 This storyboard is to focus the team on what will be prototyped. In my case, the problem I have is no unique since its a simple website. So I will be skipping this step and move on towards the prototype day.
 
-![Frank Code Crazy Eight](/img/sketches.jpg)
+##Thoughts
+This was the day to focus down the ideas generated and pick the "good ones." It would have translated really well in a team enviroment, but worked well for a solo project.

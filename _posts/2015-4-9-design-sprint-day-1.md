@@ -31,3 +31,6 @@ Another link from Jake Knapp to the [HEART](http://www.gv.com/lib/how-to-choose-
 Each one of the metrics are assigned Goals, Signals, and Metrics. For a detailed breakdown of each of those take a look at the whole article.
 
 For this, I am really just aiming for happiness and engagement. After the redesign launches I will comeback to Adoption, Retention, and Task Success. Seriously just going through this process will be a success in itself and launching will be even better.
+
+## Thoughts
+The first day only works really well with groups. Inspite of of this, it has been useful to look at inpiration and to think about the design of the website.
