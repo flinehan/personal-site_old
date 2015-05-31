@@ -13,14 +13,18 @@ Day 2 breaks down like this: 1.) Choose part of the problem, 2.) Take notes, 3.)
 ##Break it down
 Take a part of the story and run the 8 steps on it, repeat for each part. Not breaking any barriers or ideas here, just building a simple website. The site will on be a handful of pages, so the story/project could be broken down like this:
 
-  1.Home
-  2.About
-  3.Blog Posts
+<ol>
+  <li>Home</li>
+  <li>About</li>
+  <li>Blog Posts</li>
+</ol>
 
 ##Mind Map
 Take all of the ideas and loosely organize them onto paper.
 
-MIND MAP SCREEN SHOT
+<div class="row">
+  <img class="fc-center-img" src="/img/mind-map.jpg" alt="Frank Code Mind Map">
+</div>
 
 Questions that I asked:
 
@@ -36,12 +40,16 @@ Questions that I asked:
 ##Crazy 8s
 Take a piece of paper and fold it up into 8 sections. Then you have about 5 mins to sketch out your ideas, which comes out to 40 seconds per section. I will tell you right now that goes by extremely quickly.
 
-PICTURES OF MIND MAP
+<div class="row">
+  <img class="fc-center-img" src="/img/crazy-8.jpg" alt="Frank Code Crazy Eight">
+</div>
 
 ##Story Board
 Now take the ideas that you have generated and create a drawing of an actual UI that will be shared with the group. This is still just a sketch, no prototypes yet! In a team setting this sketch needs to stand alone, without any an explanation, presentation, or your name. The Google Venture team says to give it a catchy name.
 
-STORY BOARD
+<div class="row">
+  <img class="fc-center-img" src="/img/sketches-2.jpg" alt="Frank Code Crazy Eight">
+</div>
 
 ##Critiques? Super Vote?
 No critiques today, since I am running this solo. I will mention in a team setting this would be one of the most important steps

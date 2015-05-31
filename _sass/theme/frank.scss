@@ -144,15 +144,18 @@ header .meta{
   margin-top: 10px;
 }
 
-
-@media only screen and (max-width: 800px){
-
-
+.fc-center-img{
+  margin: 0 auto;
+  display: block;
 }
 
 
-@media screen and (max-width: 800px) {
-
+@media only screen and (max-width: 792px){
+  .post-content {
+    width: 360px;
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 @media screen and (max-width: 400px) {
