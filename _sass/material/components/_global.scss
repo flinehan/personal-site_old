@@ -44,7 +44,12 @@ a {
 }
 
 
-
+ul {
+  padding: 0;
+  li {
+    list-style-type: none;
+  }
+}
 
 // classic clearfix
 .clearfix {
