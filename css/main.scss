@@ -1,11 +1,13 @@
 ---
 ---
-//vendor
-@import 'material/materialize';
+
 
 // External
 @import 'external/reset';
 @import 'external/syntax';
+
+//vendor
+@import 'material/materialize';
 
 // Base
 @import 'base/variables';
