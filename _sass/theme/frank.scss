@@ -150,6 +150,19 @@ header .meta{
   display: block;
 }
 
+.fc-list{
+  margin: 0 0 15px 20px;
+  padding: 0;
+  display: block;
+  list-style-type: disc;
+}
+
+
+.fc-list li {
+  margin: 0 0 12px;
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
 
 @media only screen and (max-width: 792px){
   .post-content {

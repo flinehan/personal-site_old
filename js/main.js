@@ -8,7 +8,7 @@
           event.preventDefault();
           $('html, body').animate({
               scrollTop: target.offset().top
-          }, 800);
+          }, 400);
       }
     });
 })(window);
