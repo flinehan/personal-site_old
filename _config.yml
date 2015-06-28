@@ -11,7 +11,7 @@ theme:
   # Header and footer text
   header_text: >
         <h1 class="header fc-header-title">Frank Linehan</h1>
-        <h4 class="header col s11 fc-header-txt">A Web Developer, with an affinity for Front End Engineering and emergent JavaScript frameworks.</h4>
+        <h4 class="header fc-header-txt">A Web Developer, with an affinity for Front End Engineering and emergent JavaScript frameworks.</h4>
         <br>
   footer_text: >
    Powered by <a href="http://jekyllrb.com">Jekyll</a>

@@ -3,32 +3,28 @@ layout: default
 ---
 
   {% if site.theme.header_text %}
-
-
-  <div class="fc-background">
-    <div class="call-out">
-      {{ site.theme.header_text }}
-
+    <div class="section" id="fc-index-banner">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 m12">
+            {{ site.theme.header_text }}
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
 
-  <div class="fc-header-btn">
+   <!--  <div class="fc-header-btn">
       <a href="#posts" class="btn-floating btn-large waves-effect waves-light fc-jump-action" >
         <div class="fa fa-angle-down" style="position: relative;top: 13px;font-size: 30px;" ></div>
       </a>
-  </div>
-
-
+    </div> -->
   {% endif %}
 
 
 
-<div class="fc-home">
-
-
-
-  <div class="posts mt" id="posts">
-
+<div class="container">
+  <div class="row">
+    <div class="posts mt col m12" id="posts">
 
     {% for post in paginator.posts %}
     <div class="fc-card">
@@ -49,6 +45,7 @@ layout: default
 
     </div>
     {% endfor %}
+    </div>
   </div>
 
   {% if paginator.total_pages > 1 %}

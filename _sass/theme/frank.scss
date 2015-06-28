@@ -44,11 +44,12 @@ footer.site-footer{
   position: absolute;
   width: 50px;
   height: 50px;
-  bottom: 53%;
+  bottom: 51%;
 }
 
 .fc-header-txt{
   color:$lightPrimaryColor;
+  font-size: 28px;
 }
 
 li.logo.nav-logo:hover {
@@ -131,9 +132,10 @@ h2{
 }
 
 .fc-header-title {
-  font-size: 30px !important;
+  font-size: 45px !important;
   line-height: 1.3 !important;
   margin-top: 50px;
+  color: #fff;
 }
 
 .fc-card-title{
@@ -170,6 +172,10 @@ header .meta{
     padding-left: 0;
     padding-right: 0;
   }
+
+  .fc-header-btn{
+   top: 355px;
+  }
 }
 
 @media screen and (max-width: 400px) {
@@ -200,7 +206,6 @@ header .meta{
     padding-right: 16px;
   }
 
-
 }
 
 @media screen and (max-height: 485px ){
@@ -209,8 +214,19 @@ header .meta{
   }
 }
 
-
 li {
   font-weight: 400;
   font-size: 17px;
+}
+
+.section {
+  padding-bottom: 6rem;
+}
+
+#fc-index-banner{
+  background-color: $darkPrimaryColor;
+  z-index: -1;
+  position: relative;
+  margin-bottom: -60px;
+  font-family: 'Roboto Mono', Arial, serif;
 }
